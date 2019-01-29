@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RecyclerPessoas</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="sexo">Sexo</string>
+    <string name="escolha_data_de_nascimento">Escolha data de nascimento</string>
+    <string name="nome_obrigatorio">Nome é obrigatório</string>
+    <string name="data_obrigatorio">Insira a data de nascimento</string>
+    <string name="radio_obrigatorio">Selecione o sexo</string>
+    <string name="salvo_sucesso">Salvo com sucesso</string>
+    <string name="erro_salvar">Erro ao salvar</string>
+    <string name="alterado_sucesso">Alterado com sucesso</string>
+    <string name="erro_alterar">Erro ao alterar</string>
+    <string name="remocao_convidado">Remoção do Convidado</string>
+    <string name="deseja_remover">Deseja Remover</string>
+    <string name="sim" >SIM</string>
+    <string name="nao">NÃO</string>
+</resources>

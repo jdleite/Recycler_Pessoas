@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.MainActivity">
+
+    <EditText
+        android:id="@+id/edtNome"
+        style="@style/edtText"
+        android:hint="@string/digite_seu_nome"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="@string/sexo"
+        android:textColor="@color/textoBotao" />
+
+    <RadioGroup
+        android:id="@+id/rdg_Sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdbMasc"
+            android:text="@string/masculino"
+            style="@style/rdbutton"/>
+
+        <RadioButton
+            android:id="@+id/rdbFemin"
+            android:text="@string/feminino"
+            style="@style/rdbutton"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edtDataNasc"
+        style="@style/edtText"
+        android:focusable="false"
+        android:hint="@string/escolha_data_de_nascimento" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:text="Salvar"
+        style="@style/botao"/>
+
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_marginTop="5dp"
+        android:text="Listar"
+        style="@style/botao"/>
+
+
+</LinearLayout>
